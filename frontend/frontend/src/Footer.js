@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className="row mb-5">
                     <div className="col-md">
                         <div className="ftco-footer-widget mb-4">
-                            <h2 className="ftco-heading-2 logo">Haircare</h2>
-                            <p>We Are professional Care for your Hair</p>
+                            <h2 className="ftco-heading-2 logo">Healthcare</h2>
+                            <p>We care about your Health</p>
                             <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                                 <li className="ftco-animate"><Link href="#"><span className="icon-twitter"></span></Link></li>
                                 <li className="ftco-animate"><Link href="#"><span className="icon-facebook"></span></Link>
@@ -47,12 +47,12 @@ const Footer = () => {
                             <h2 className="ftco-heading-2">Have a Questions?</h2>
                             <div className="block-23 mb-3">
                                 <ul>
-                                    <li><span className="icon icon-map-marker"></span><span className="text">204/1 ,  kandy colombo road, Baththaramulla, colombo, Sri Lanka</span>
+                                    <li><span className="icon icon-map-marker"></span><span className="text">No. 578, Elvitigala Mawatha, Narahenpita, Colombo 05, Sri Lanka</span>
                                     </li>
                                     <li><span className="icon icon-phone"></span><span className="text">71 9393390</span>
                                     </li>
                                     <li><span className="icon icon-envelope"></span><span
-                                        className="text">binura.owin1@gmail.com</span></li>
+                                        className="text">contactus@Nursinghome.com</span></li>
                                 </ul>
                             </div>
                         </div>
