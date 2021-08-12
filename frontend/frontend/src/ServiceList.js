@@ -31,7 +31,7 @@ const ServiceList = () => {
                 <div>
                     <div className="artists-header">
                         <span >Services</span>
-                        <h2 >Services Menu</h2>
+                        <h2 >Category of services</h2>
                         <p>This is our professional services we gives to you</p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const ServiceList = () => {
                             <CardImg top width="100%" src={vp} alt="Card image cap" height="350px" />
                             <CardBody className="card-body-my">
                                 <CardTitle className="card-body-my">Physician (VP)</CardTitle>
-                                <CardText>We Are professional for your Makeup </CardText>
+                                <CardText>We Are specializes in medicine to treat adult patients </CardText>
 
                             </CardBody>
                         </Card>
@@ -49,7 +49,7 @@ const ServiceList = () => {
                             <CardImg top width="100%" src={cardio} alt="Card image cap" height="350px" />
                             <CardBody className="card-body-my">
                                 <CardTitle>Cardiologist</CardTitle>
-                                <CardText>We Are professional for your Bread </CardText>
+                                <CardText>We Are specializes in treating diseases of the cardiovascular system-mainly the heart and blood vessels </CardText>
 
                             </CardBody>
                         </Card>
@@ -58,7 +58,7 @@ const ServiceList = () => {
                             <CardImg top width="100%" src={Nuro} alt="Card image cap" height="350px" />
                             <CardBody className="card-body-my">
                                 <CardTitle>Neurologist</CardTitle>
-                                <CardText>We Are professional for Haircut and Styling</CardText>
+                                <CardText>We Are specializes in assess, diagnose, manage, and treat conditions that affect your nervous system</CardText>
 
                             </CardBody>
                         </Card>
@@ -66,7 +66,7 @@ const ServiceList = () => {
                             <CardImg top width="100%" src={pedi} alt="Card image cap" height="350px" />
                             <CardBody className="card-body-my">
                                 <CardTitle>Pediatrician</CardTitle>
-                                <CardText>We Are professional for your Body Treatment</CardText>
+                                <CardText>We Are specializes in manage the physical, behavioral, and mental care for children from birth until age 18</CardText>
 
                             </CardBody>
                         </Card>
