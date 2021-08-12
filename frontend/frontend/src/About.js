@@ -30,11 +30,12 @@ const About = () => {
                     <Col>
                         <div className="heading-section mb-4 mt-md-5">
                             <span className="subheading">About Us</span>
-                            <h2 className="mb-4">Welcome To Haircare A Hair Salon</h2>
+                            <h2 className="mb-4">We Are Happy To Serve You!</h2>
                         </div>
-                        <p>Saloon Haircare is filled with amazingly talented staff who are always working to improve, inspire and fulfill your Makeup,Skin & hair needs. Our expert Makeup Artist & stylists have been working
-                            in the Beauty saloon industry for 13+ years, and they not only do makeup,cut, colour and style hair, but they exemplify what it means to be a professional Makeup Artist & hair stylist.
-                            They are committed to learning new techniques and trends in the Makeup & hair industry, learning that they pass along to their fellow Makeup Artists & Hair stylists and clients.</p>
+                        <p>Nursing home medical center is renowned as one of the leading healthcare providers in Sri Lanka today. 
+                        In a journey extending over three and a half decades so far, we have expanded our medical-facility network considerably to now include inpatient and outpatient care facilities, laboratories and sample collection centers, pharmacies, and medical imaging units.
+                         Medihelp’s distinct healthcare offering is modelled on our patient-focused approach, affordability, accessibility, as well as the comprehensive facilities and high-quality medical expertise on offer.
+                         Our presence in several key locations across the island allows us to consistently deliver on our promise of providing quality affordable healthcare for all Sri Lankans.</p>
                     </Col>
                 </Row>
             </div>
