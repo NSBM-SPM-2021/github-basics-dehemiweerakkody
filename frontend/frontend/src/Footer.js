@@ -28,7 +28,8 @@ const Footer = () => {
                                 <li><Link href="#" className="py-2 d-block">Terms Condition</Link></li>
                             </ul>
                         </div>
-
+                        <br/>
+                    <br/>
 
                     </div>
                     <div className="col-md">
