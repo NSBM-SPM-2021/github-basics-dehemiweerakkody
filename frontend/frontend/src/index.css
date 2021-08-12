@@ -25,7 +25,7 @@ code {
 }
 .create h2 {
   font-size: 20px;
-  color: lightseagreen;
+  color: rgb(38, 89, 230);
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -37,7 +37,7 @@ code {
   display: block;
 }
 .create button {
-  background: lightseagreen;
+  background: rgb(38, 89, 230);
   color: #fff;
   border: 0;
   padding: 8px;
@@ -59,7 +59,7 @@ code {
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: lightseagreen;
+  color: rgb(38, 89, 230);
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
@@ -67,13 +67,13 @@ code {
   margin-left: auto;
 }
 .navbar a {
-  margin-left: 16px;
+  margin-left: 32px;
   text-decoration: none;
-  padding: 6px;
-  color: lightseagreen;
+  padding: 10px;
+  color: rgb(38, 89, 230);
 }
 .navbar a:hover {
-  color: darkslategray;
+  color: rgb(43, 92, 92);
 }
 
 .content {
@@ -92,7 +92,7 @@ code {
   text-align: center;
 }
 .artists-header span{
-  color: lightseagreen;
+  color: rgb(38, 89, 230);
   font-size: 15px;
 
 }
