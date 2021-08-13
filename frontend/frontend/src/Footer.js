@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="ftco-footer ftco-section" style={{}}>
+        <footer className="ftco-footer ftco-section" style={{
+           backgroundColor: "#2D7CD8"
+        }}>
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-md">

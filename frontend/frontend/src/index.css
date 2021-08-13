@@ -18,6 +18,8 @@ code {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  
+  
 }
 .create label {
   text-align: left;
@@ -25,8 +27,9 @@ code {
 }
 .create h2 {
   font-size: 20px;
-  color: rgb(70, 125, 207);
+  color:black;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 .create input, .create textarea, .create select {
   width: 100%;
@@ -37,11 +40,12 @@ code {
   display: block;
 }
 .create button {
-  background: rgb(70, 125, 207);
+  background: #33CA8D;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
+  margin-top: 20px;
   cursor: pointer;
 }
 /* base styles */
@@ -58,10 +62,15 @@ code {
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
-.navbar h1 {
-  color: rgb(84, 115, 173);
+.navbar h2 {
+  color: #2D7CD8;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-top: 0px;
+  
+  
 }
 .navbar .links {
   margin-left: auto;
@@ -70,10 +79,13 @@ code {
   margin-left: 32px;
   text-decoration: none;
   padding: 10px;
-  color: lightseagreen;
+  font-size: 18px;
+  color: #2D7CD8;
+  margin-top: 20px;
+  
 }
 .navbar a:hover {
-  color: rgb(51, 139, 139);
+  color:#2BAD62;
 }
 
 .content {
@@ -93,7 +105,7 @@ code {
   text-align: center;
 }
 .artists-header span{
-  color: rgb(38, 89, 230);
+  color: #2D7CD8;
   font-size: 18px;
 
 }
@@ -110,7 +122,7 @@ code {
 }
 
 .card-body-my{
-  background-color: rgb(84, 115, 173);
+  background-color:#33CA8D;
   align-content: center;
   text-align: center;
 }

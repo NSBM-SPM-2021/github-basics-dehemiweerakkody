@@ -150,7 +150,7 @@ const success = () =>{
                 {/*/>*/}
                 <Row className="mt-3">
                     <Col xs="6">
-                        <label>Consumer:</label>
+                        <label>Doctor:</label>
                         <select
                             className="bg-light p-2 border"
                             value={consumer}

@@ -6,7 +6,7 @@ import './css/style.css'
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>Nursing Home</h1>
+            <h2>Nursing Home</h2>
         
             
             <div className="links">
