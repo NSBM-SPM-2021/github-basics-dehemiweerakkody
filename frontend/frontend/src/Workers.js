@@ -17,7 +17,7 @@ import {
     Row,
     Col
 } from 'reactstrap';
-import doctor from "./assets/images/doca.jpg";
+import doctor from "./assets/images/docicon.png";
 import {useEffect, useState} from "react";
 import axios from "./axios";
 
