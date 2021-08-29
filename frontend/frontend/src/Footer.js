@@ -37,12 +37,12 @@ const Footer = () => {
                     </div>
                     <div className="col-md">
                         <div className="ftco-footer-widget mb-4">
-                            <h2 className="ftco-heading-2">Links</h2>
+                            <h2 className="ftco-heading-2">Services</h2>
                             <ul className="list-unstyled">
-                                <li><Link to="/" className="py-2 d-block">Home</Link></li>
-                                <li><Link to="/services" className="py-2 d-block">Services</Link></li>
-                                <li><Link to="/about" className="py-2 d-block">About</Link></li>
-                                <li><Link to="/appointment" className="py-2 d-block">Appointment</Link></li>
+                                <li><Link to="/" className="py-2 d-block">Ambulance</Link></li>
+                                <li><Link to="/services" className="py-2 d-block">Operation theatre</Link></li>
+                                <li><Link to="/about" className="py-2 d-block">Inpatient care</Link></li>
+                                <li><Link to="/appointment" className="py-2 d-block">Health Check-Ups</Link></li>
                             </ul>
                         </div>
                     </div>
