@@ -23,10 +23,11 @@ const Footer = () => {
                     </div>
                     <div className="col-md">
                         <div className="ftco-footer-widget mb-4 ml-md-5">
-                            <h2 className="ftco-heading-2">Information</h2>
+                            <h2 className="ftco-heading-2">Useful Information</h2>
                             <ul className="list-unstyled">
                                 <li><Link href="#" className="py-2 d-block">FAQs</Link></li>
                                 <li><Link href="#" className="py-2 d-block">Privacy</Link></li>
+                                <li><Link href="#" className="py-2 d-block">About Us</Link></li>
                                 <li><Link href="#" className="py-2 d-block">Terms Condition</Link></li>
                             </ul>
                         </div>
@@ -47,7 +48,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md">
                         <div className="ftco-footer-widget mb-4">
-                            <h2 className="ftco-heading-2">Have a Questions?</h2>
+                            <h2 className="ftco-heading-2">Contact Us</h2>
                             <div className="block-23 mb-3">
                                 <ul>
                                     <li><span className="icon icon-map-marker"></span><span className="text">No. 578, Elvitigala Mawatha, Narahenpita, Colombo 05, Sri Lanka</span>
