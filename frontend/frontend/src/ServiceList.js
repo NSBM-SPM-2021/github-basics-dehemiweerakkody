@@ -18,7 +18,7 @@ import {
     Col
 } from 'reactstrap';
 
-import img6 from './beard.png';
+
 import vp from "./assets/images/vp.jpg";
 import cardio from "./assets/images/doccardiyo.jpg";
 import Nuro from "./assets/images/docneuro.jpg";
