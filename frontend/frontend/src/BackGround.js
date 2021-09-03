@@ -34,10 +34,10 @@ const BackGround = () => {
                     <CardTitle className="overlay-title"><br/>
 
                         <br/><br/>Welcome to Nursing Home</CardTitle>
-                    <CardText style={{fontSize: "40px"}}>Stay safe. Stay Healthy</CardText>
+                    <CardText style={{fontSize: "40px"}}>We are here for Your Care</CardText>
                     <CardText>
-                        <small className="text-muted"><Link to="/appointment" className="btn btn-primary btn-outline-primary px-4 py-2">Book
-                            now</Link></small>
+                        <small className="text-muted"><Link to="/appointment" className="btn btn-primary btn-outline-primary px-4 py-2">ENQUIRE
+                            NOW</Link></small>
                     </CardText>
                 </CardImgOverlay>
             </Card>
