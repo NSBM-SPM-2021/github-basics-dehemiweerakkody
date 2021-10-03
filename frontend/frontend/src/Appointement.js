@@ -65,7 +65,7 @@ const success = () =>{
         useEffect(() =>{
             //get data function
             async function fetchPosts() {
-                const response = await  axios.get("/employee");
+                const response = await  axios.get("/doctors");
                 //save data to the setvideos from response
                 console.log(response.data)
                 setEmployees(response.data);
