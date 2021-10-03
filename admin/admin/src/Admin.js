@@ -14,7 +14,7 @@ const dataProvider = simpleRestClient('http://localhost:3001');
 const AdminList = () => (
 
        <Admin dataProvider={dataProvider} dashboard={Dashboard}>
-        <Resource name="employee" list={EmployeeList} create={EmployeeCreate} edit={EmployeeEdit}/>
+        <Resource name="doctors" list={EmployeeList} create={EmployeeCreate} edit={EmployeeEdit}/>
            <Resource name="appointments" list={AppointmentList} create={AppointmentCreate} edit={AppointmentEdit}/>
            </Admin>
     );
