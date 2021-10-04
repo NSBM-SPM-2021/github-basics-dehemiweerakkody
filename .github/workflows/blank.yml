@@ -16,7 +16,7 @@ jobs:
           branch: main
           appdir: ./backend
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "saloon-spm-backend" #Must be unique in Heroku
+          heroku_app_name: "nsbm-spm-backend" #Must be unique in Heroku
           heroku_email: "dehemisandeepani@gmail.com"
   USER:
    needs: BACKEND
