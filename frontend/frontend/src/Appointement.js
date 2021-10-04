@@ -36,7 +36,7 @@ const success = () =>{
 
         const appointment = { userName,date, time, service,consumer,birthDate,phone};
         console.log(appointment)
-        axios.post('http://localhost:3001/appointments', appointment)
+        axios.post('https://nsbm-spm-backend.herokuapp.com/appointments', appointment)
             .then(response =>
                     // console.log(response),
                     success(),

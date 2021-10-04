@@ -12,7 +12,7 @@ import restProvider from 'ra-data-simple-rest'
 import jsonServerProvider from 'ra-data-json-server';
 import EmployeeList from "./EmployeeList";
 
-const dataProvider = jsonServerProvider('http://localhost:3000')
+const dataProvider = jsonServerProvider('https://nsbm-spm-backend.herokuapp.com')
 function Adminset() {
     return (
          // <EmployeeList/>
