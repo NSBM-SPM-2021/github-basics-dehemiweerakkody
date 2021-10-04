@@ -5,9 +5,151 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* appintment */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  
+  
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color:black;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #33CA8D;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: inherit;
+
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h2 {
+  color: #2D7CD8;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-top: 0px;
+  
+  
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 32px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  color: #2D7CD8;
+  margin-top: 20px;
+  
+}
+.navbar a:hover {
+  color:#2BAD62;
+}
+
+.content {
+
+  margin: 40px auto;
+  padding: 20px;
+}
+.card-title{
+  align-items: stretch;
+}
+.artists-header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height:40%;
+  text-align: center;
+}
+.artists-header span{
+  color: #2D7CD8;
+  font-size: 18px;
+
+}
+.artists-header h2{
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.artists-header p{
+  color: grey;
+  font-size: 16px;
+
+}
+
+.card-body-my{
+  background-color:#33CA8D;
+  align-content: center;
+  text-align: center;
+}
+
+
+.bg-overlay{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.overlay-bg{
+  text-align: center;
+}
+.overlay-title{
+  color: black;
+  font-size: 70px;
+
+}
+.navin-bg{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+.service-my{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
