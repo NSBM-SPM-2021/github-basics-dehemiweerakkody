@@ -7,7 +7,19 @@ on:
       - main
 
 jobs:
+  BACKEND:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:  
+          branch: main
+          appdir: ./backend
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "saloon-spm-backend" #Must be unique in Heroku
+          heroku_email: "dehemisandeepani@gmail.com"
   USER:
+   needs: BACKEND
    runs-on: ubuntu-latest
    steps:
       - uses: actions/checkout@v2
